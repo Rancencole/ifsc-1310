@@ -53,7 +53,7 @@ html {
   /*  --------------- Global Styles -----------------  */
   
   body {
-    font-family: "Gabarito", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     margin: 0;
     color: #80ffff;    
     background-image: url(Segway\ Background.jpg);
@@ -79,6 +79,7 @@ html {
   
   header.primary {
   color: #ffffff;
+  background-color: #000000;
   text-align: right;
   text-shadow: 2px 2px #000000;
   /*long form*/
@@ -116,9 +117,9 @@ html {
   
   header.primary img
   {
-  position: absolute; /* Positions the image absolutely within the header */
-    top: 50px; /* Adjust the top position as needed */
-    left: 20%; /* Center the image horizontally */
+  position: absolute; 
+    top: 30px; 
+    left: 20%; 
   }
   
   header.primary ul {
@@ -137,16 +138,16 @@ html {
     color: #80ffff;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 7.5px 10px;
+    padding: 4.5px 10px;
     border-radius: 0px;
     border: 1px solid #80ffff;;
     transition: 0.4s;
   }
   
   section.container img {
-    display: flex;
-    max-width: 90%;
-    left: 50%;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
     
   }
 
@@ -316,12 +317,6 @@ html {
     color: #fff;
   }
   
-  aside .container a:last-of-type {
-    display: block;
-  
-    text-align: right;
-    margin-top: 2rem;
-  }
   
   aside .widget footer {
     display: none;
